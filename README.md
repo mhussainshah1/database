@@ -20,17 +20,17 @@ Example: oracle, MySQL, SQL Server, PostgreSQL, Microsoft Access, H2.
 
 Things that are just a database but not DBMS: Excel, NoSQL, 
 
-Rules for databases:
+**Rules for databases:**
 - A = atomic (think of atoms). Each record should be stored in fields which represent the most atomic or smallest component of the data 
 So, an address should be: house number, street, city, state, zip.
 A name would be: title, first, middle, last, suffix
------------------------------------------------------------
+---
 - C = consistent = refers to the validity of your data in terms of the rules you set for it. Data is valid and not junk.
-
+---
 - I = Isolation - all transaction will occur in isolation and won't interfere with other transactions.
-
+---
 - D = Durability - Once data is committed to the system, it must remain saved and stored permanently.
------------------------------------------------------------
+---
 
 ### What is a relational database?
 Relationships are: one to one, One to Many, Many to Many
