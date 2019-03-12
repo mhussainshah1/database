@@ -1,4 +1,4 @@
-create database Customers;
+-- create database Customers;
 use Customers;
 
 CREATE TABLE PersonsTest (
